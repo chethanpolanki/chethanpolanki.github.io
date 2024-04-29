@@ -7,9 +7,12 @@
   /*===== Colores =====*/
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
-  --hue-color: 224;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
-  --second-color: hsl(var(--hue-color), 56%, 12%);
+
+
+  --second-color: #131516;
+  --first-color: #BC243C;
+  --third-color: #7FCDCD;
+
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
@@ -112,7 +115,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color: #FFF;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -231,7 +234,7 @@ img {
 }
 
 .home__blob {
-  fill: var(--first-color);
+  fill: var(--third-color);
 }
 
 .home__blob-img {
@@ -241,7 +244,7 @@ img {
 /*BUTTONS*/
 .button {
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: var(--third-color);
   color: #fff;
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
@@ -272,6 +275,9 @@ img {
   border-radius: .5rem;
 }
 
+.about__text {
+        text-align: justify;
+    }
 /* ===== SKILLS =====*/
 .skills__container {
   row-gap: 2rem;
@@ -382,7 +388,7 @@ img {
 /* ===== FOOTER =====*/
 .footer {
   background-color: var(--second-color);
-  color: #fff;
+  color: #FFBE98;
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
